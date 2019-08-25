@@ -19,6 +19,6 @@ public class GameController : MonoBehaviour
     }
 
     public void NextScene(){
-        SceneManagement.SceneManager.LoadScene(currentScene++);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(++currentScene);
     }
 }

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Winbox : MonoBehaviour
 {
-    GameObject gameController;
+    GameController gameController;
+    public int something;
     void Start()
     {
         if (gameController == null)
